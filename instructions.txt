@@ -1,0 +1,10 @@
+Instructions for PEAK6 DevOps Test
+
+Given the attached app.py, please do the following:
+1. Write a Dockerfile to package this flask Application as a container.
+2. Write the necessary kubernetes manifests to deploy this container as a web application
+3. Incorporate a dummy URL this application would respond on.
+
+The output of this test would be a zip containing a Dockerfile and a set of yaml files.
+
+NOTE: Treat this as introducing a new application into an already existing Kubernetes cluster that already has a number of other web applications already deployed. The Kubernetes files should be designed with Production quality, High Availability, and Scalability in mind.
